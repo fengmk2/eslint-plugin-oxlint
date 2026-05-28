@@ -9,9 +9,6 @@ catalogs:
     vite-plus:
       specifier: https://pkg.pr.new/voidzero-dev/vite-plus@1588
       version: 0.1.22
-    vitest:
-      specifier: ^4.1.5
-      version: 4.1.7
 
 overrides:
   vite: https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@1588
@@ -62,9 +59,6 @@ importers:
       vite-plus:
         specifier: 'catalog:'
         version: https://pkg.pr.new/voidzero-dev/vite-plus@1588(@types/node@25.5.0)(@vitest/coverage-v8@4.1.7(@vitest/browser@4.1.7)(vitest@4.1.7))(@voidzero-dev/vite-plus-core@https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@1588(@types/node@25.5.0)(jiti@2.7.0)(typescript@5.9.3))(jiti@2.7.0)(playwright@1.60.0)(typescript@5.9.3)(webdriverio@9.27.2)
-      vitest:
-        specifier: 'catalog:'
-        version: 4.1.7(@types/node@25.5.0)(@vitest/browser-playwright@4.1.7)(@vitest/browser-preview@4.1.7)(@vitest/browser-webdriverio@4.1.7)(@vitest/coverage-v8@4.1.7(@vitest/browser@4.1.7)(vitest@4.1.7))(@voidzero-dev/vite-plus-core@https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@1588(@types/node@25.5.0)(jiti@2.7.0)(typescript@5.9.3))
 
 packages:
 
