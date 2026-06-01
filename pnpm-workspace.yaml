@@ -1,7 +1,7 @@
 catalog:
-  vite: npm:@voidzero-dev/vite-plus-core@latest
-  vite-plus: ^0.1.20
-  vitest: npm:@voidzero-dev/vite-plus-test@latest
+  vite: https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@1738
+  vite-plus: https://pkg.pr.new/voidzero-dev/vite-plus@1738
+  vitest: https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-test@1738
 overrides:
   vite: 'catalog:'
   vitest: 'catalog:'
@@ -13,3 +13,15 @@ peerDependencyRules:
     vite: '*'
     vitest: '*'
 verifyDepsBeforeRun: install
+minimumReleaseAge: 60
+minimumReleaseAgeExclude:
+  - vite-plus
+  - vite
+  - vitest
+  - '@voidzero-dev/*'
+  - '@oxc-project/*'
+  - '@oxlint/*'
+  - oxlint
+  - oxfmt
+  - oxlint-tsgolint
+blockExoticSubdeps: false
