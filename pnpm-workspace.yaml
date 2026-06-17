@@ -1,8 +1,19 @@
 catalog:
-  vite: npm:@voidzero-dev/vite-plus-core@latest
-  vite-plus: ^0.1.20
-  vitest: npm:@voidzero-dev/vite-plus-test@latest
+  vite: 'https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@1856'
+  vite-plus: 'https://pkg.pr.new/voidzero-dev/vite-plus@1856'
+  vitest: '4.1.9'
+minimumReleaseAge: 60
+blockExoticSubdeps: false
 minimumReleaseAgeExclude:
+  - '@voidzero-dev/*'
+  - vite-plus
+  - '@vitest/*'
+  - vite
+  - vitest
+  - '@oxc-project/*'
+  - '@oxlint/*'
+  - oxfmt
+  - oxlint-tsgolint
   - '@oxlint/binding-android-arm-eabi'
   - '@oxlint/binding-android-arm64'
   - '@oxlint/binding-darwin-arm64'
