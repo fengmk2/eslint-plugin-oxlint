@@ -1,5 +1,7 @@
 catalog:
-  vite-plus: ^0.2.0
+  vite-plus: 0.0.0-commit.4f61f920640a17d1ebd019f516e883f6de6a9811
+  vite: npm:@voidzero-dev/vite-plus-core@0.0.0-commit.4f61f920640a17d1ebd019f516e883f6de6a9811
+  vitest: 4.1.9
 minimumReleaseAgeExclude:
   - '@oxlint/binding-android-arm-eabi'
   - '@oxlint/binding-android-arm64'
@@ -29,3 +31,6 @@ peerDependencyRules:
     vite: '*'
     vitest: '*'
 verifyDepsBeforeRun: install
+overrides:
+  vite: 'catalog:'
+  vitest: 'catalog:'
